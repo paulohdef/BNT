@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# angular_2_curso
-=======
-<<<<<<< HEAD
-# angular_2_curso
-=======
 # Gatitobook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
@@ -31,5 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
->>>>>>> 267f52030cc7c6334ca4abf937e32d533a92fbb4
->>>>>>> c738640c8d98874986d38e1e218190b938db9fcd
