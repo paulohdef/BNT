@@ -13,6 +13,7 @@ export class UsuarioExisteService {
   usuarioJaExiste() {
 
     return (control : AbstractControl ) => {
+
       return control.valueChanges.pipe(
         switchMap((nomeUsuario) =>
           this.novoUsuarioService.verificaUsuarioExistente(nomeUsuario)
