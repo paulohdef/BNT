@@ -1,6 +1,20 @@
 <header class="sticky-top">
   <nav class="nav navbar navbar-light bg-light" >
-    <a class="navbar-brand nav-item">Gatito Book</a>
+    <a class="navbar-brand nav-item">
+      <i class="fa fa-bars mr-2"
+      (click)="menu.abreMenu()"
+      (keyup.space)="menu.abreMenu()"
+      >
+      Gatito Book
+      </i>
+    </a>
+    <app-menu #menu>
+      <ul class="list-unstyled">
+        <li>
+          <a [routerLink]="['animais','novo']"> Novo Animal</a>
+        </li>
+      </ul>
+    </app-menu>
     <div
     class=""
     *ngIf="user$ | async as user"
