@@ -17,6 +17,6 @@ export class NovoUsuarioService {
   }
 
   verificaUsuarioExistente(nomeUsuario : string){
-    return this.http.get(`${API}user/exists/${nomeUsuario}`)
+    return this.http.get(`${API}/user/exists/${nomeUsuario}`)
   }
 }
